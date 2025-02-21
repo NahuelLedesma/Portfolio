@@ -1,0 +1,10 @@
+.menu__list__item{
+    margin-left: 2rem;
+    list-style: none;
+    transition: .2s;
+}
+
+.menu__list__item:hover{
+    text-decoration: underline;
+    transform: scale(1.2);   
+}

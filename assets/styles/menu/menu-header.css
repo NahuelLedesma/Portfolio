@@ -1,0 +1,20 @@
+.menu__header{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px){
+    .menu__header{
+        justify-content: space-between;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .menu__header{
+        justify-content: space-between;
+        padding: 1rem;
+    }
+}

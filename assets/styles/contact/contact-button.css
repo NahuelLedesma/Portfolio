@@ -1,0 +1,15 @@
+.formcontact__button{
+    background: #2A7AE4;
+    border-radius: 15px;
+    color: #FFF;
+    height: 3.188rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    transition: .2s;
+    width: 9rem;
+}
+
+.formcontact__button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

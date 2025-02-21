@@ -1,0 +1,13 @@
+.experience__text{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width:480px) {
+    .experience__text{
+        font-size: .8rem;
+    }
+}

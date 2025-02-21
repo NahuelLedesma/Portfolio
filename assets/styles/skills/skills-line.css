@@ -1,0 +1,20 @@
+.skills__line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:768px){
+    .skills__line{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skills__line{
+        margin-top: 1rem;
+    }
+}

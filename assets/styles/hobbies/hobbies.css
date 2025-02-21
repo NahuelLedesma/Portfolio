@@ -1,0 +1,13 @@
+.hobbies{
+    margin-top: 6rem;
+    padding-left: 15rem;
+    text-align: center;
+    width: 75%;
+}
+
+@media screen and (max-width:768px){
+    .hobbies{
+        padding-left: 0;
+        width: 100%;
+    }
+}

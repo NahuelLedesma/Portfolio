@@ -1,0 +1,17 @@
+.academic__courses__box{
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+    text-align: left;
+    transition: .2s;
+}
+
+.academic__courses__box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .academic__courses__box{
+        text-align: center;
+    }
+}

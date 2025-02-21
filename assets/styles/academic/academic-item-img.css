@@ -1,0 +1,26 @@
+.academic__courses__item__img{
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.75);
+    background: #FFF;
+    height: 286px;
+    width: 368px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img{
+    width: 50%;
+}
+
+@media screen and (max-width:480px) {
+    .img{
+        width: 40%;
+    }
+
+    .academic__courses__item__img{
+        height: 190px;
+        width: 250px;
+    }
+}

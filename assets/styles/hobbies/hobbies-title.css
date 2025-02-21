@@ -1,0 +1,11 @@
+.hobbies__title{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 19px;
+}
+
+@media screen and (max-width:480px) {
+    .hobbies__title{
+        font-size: 1.5rem;
+    }
+}

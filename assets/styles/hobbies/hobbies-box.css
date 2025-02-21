@@ -1,0 +1,15 @@
+.hobbies__box{
+    background: #FFF;
+    border-radius: 3rem;
+    box-shadow: 0 5px 5px 0;
+    height: 10.875rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    transition: .2s;
+    width: 11rem;
+    cursor: pointer;
+}
+
+.hobbies__box:hover{
+    transform: scale(1.1);
+}

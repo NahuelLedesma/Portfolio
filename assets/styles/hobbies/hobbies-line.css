@@ -1,0 +1,14 @@
+.hobbies__line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:768px){
+    .hobbies__line{
+        justify-content: space-around;
+    }
+}

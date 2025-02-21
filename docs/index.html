@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/body.css">
+    <!-- Hojas de estilo para el menú -->
+    <link rel="stylesheet" href="assets/styles/menu/menu-header.css">
+    <link rel="stylesheet" href="assets/styles/menu/menu-name.css">
+    <link rel="stylesheet" href="assets/styles/menu/menu-title.css">
+    <link rel="stylesheet" href="assets/styles/menu/menu-list.css">
+    <link rel="stylesheet" href="assets/styles/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/styles/menu/menu-link.css">
+    <!-- Hojas de estilo para el título -->
+    <link rel="stylesheet" href="assets/styles/title/title.css">
+    <link rel="stylesheet" href="assets/styles/title/title-profile.css">
+    <link rel="stylesheet" href="assets/styles/title/title-container.css">
+    <link rel="stylesheet" href="assets/styles/title/title-bio.css">
+    <link rel="stylesheet" href="assets/styles/title/title-subsection.css">
+    <link rel="stylesheet" href="assets/styles/title/title-network.css">
+    <link rel="stylesheet" href="assets/styles/title/title-network-item.css">
+    <link rel="stylesheet" href="assets/styles/title/title-network-link.css">
+    <!-- Hojas de estilo para acerca de mi -->
+    <link rel="stylesheet" href="assets/styles/aboutMe/about.css">
+    <link rel="stylesheet" href="assets/styles/aboutMe/about-title.css">
+    <link rel="stylesheet" href="assets/styles/aboutMe/about-container.css">
+    <link rel="stylesheet" href="assets/styles/aboutMe/about-paragraph.css">
+    <!-- Hojas de estilo para skills -->
+    <link rel="stylesheet" href="assets/styles/skills/skills.css">
+    <link rel="stylesheet" href="assets/styles/skills/skills-title.css">
+    <link rel="stylesheet" href="assets/styles/skills/skills-line.css">
+    <link rel="stylesheet" href="assets/styles/skills/skills-box.css">
+    <link rel="stylesheet" href="assets/styles/skills/skills-list.css">
+    <link rel="stylesheet" href="assets/styles/skills/skills-img.css">
+    <link rel="stylesheet" href="assets/styles/skills/skills-name.css">
+    <!-- Hojas de estilo para hobbies -->
+    <link rel="stylesheet" href="assets/styles/hobbies/hobbies.css">
+    <link rel="stylesheet" href="assets/styles/hobbies/hobbies-title.css">
+    <link rel="stylesheet" href="assets/styles/hobbies/hobbies-line.css">
+    <link rel="stylesheet" href="assets/styles/hobbies/hobbies-box.css">
+    <link rel="stylesheet" href="assets/styles/hobbies/hobbies-list.css">
+    <link rel="stylesheet" href="assets/styles/hobbies/hobbies-name.css">
+    <!-- Hojas de estilo para formación académica -->
+    <link rel="stylesheet" href="assets/styles/academic/academic.css">
+    <link rel="stylesheet" href="assets/styles/academic/academic-courses.css">
+    <link rel="stylesheet" href="assets/styles/academic/academic-title.css">
+    <link rel="stylesheet" href="assets/styles/academic/academic-box.css">
+    <link rel="stylesheet" href="assets/styles/academic/academic-list.css">
+    <link rel="stylesheet" href="assets/styles/academic/academic-item-img.css">
+    <link rel="stylesheet" href="assets/styles/academic/academic-item-title.css">
+    <link rel="stylesheet" href="assets/styles/academic/academic-item-subtitle.css">
+    <!-- Hojas de estilo para proyectos -->
+    <link rel="stylesheet" href="assets/styles/experience/experience.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-title.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-text.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-section-title.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-repo.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-info.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-img.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-description.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-demo.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-box.css">
+    <link rel="stylesheet" href="assets/styles/experience/experience-container.css">
+    <!-- Hojas de estilo para contacto -->
+    <link rel="stylesheet" href="assets/styles/contact/contact.css">
+    <link rel="stylesheet" href="assets/styles/contact/contact-title.css">
+    <link rel="stylesheet" href="assets/styles/contact/contact-textarea.css">
+    <link rel="stylesheet" href="assets/styles/contact/contact-subtext.css">
+    <link rel="stylesheet" href="assets/styles/contact/contact-input.css">
+    <link rel="stylesheet" href="assets/styles/contact/contact-form.css">
+    <link rel="stylesheet" href="assets/styles/contact/contact-button.css">
+    <link rel="stylesheet" href="assets/styles/contact/contact-label.css">
+    <!-- Hojas de estilo para el footer -->
+    <link rel="stylesheet" href="assets/styles/footer/footer.css">
+    <link rel="stylesheet" href="assets/styles/footer/footer__rodape.css">
+    <!-- Referencias externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Mi Portafolio</title>
+</head>
+<body class="tudo">
+    <!-- Sección del Menú  -->
+    <header class="menu">
+        <nav class="menu__header">
+            <div class="menu__name">
+                <img class="header__img" src="assets/img/vector.png" alt="Brillo">
+                <h3 class="menu__title">Nahuel Ledesma</h3>
+            </div>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a class="menu__list_link" href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a class="menu__list_link" href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a class="menu__list_link" href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a class="menu__list_link" href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a class="menu__list_link" href="#xp">Proyectos</a></li>
+            </ul>
+            <li class="menu__list__item"><a class="menu__list_link" href="#contacto">nahuledes17@gmail.com</a></li>
+        </nav>
+    </header>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title">
+        <div class="title__div">
+            <div class="profile">
+                <img class="title__profile" src="assets/img/perfil.jpg">
+            </div>
+            <div class="title__container">
+                <h2 class="title__bio">Hola, mi nombre es Nahuel Joaquín Ledesma y construyo páginas web</h2>
+                <h3 class="title__subsection">Actualmente formándome en la Universidad de Luján y participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <ul class="title__network">
+                     <!-- Enlaces de redes sociales -->
+                    <li class="title__network__item"><a class="title__network__link" href="https://github.com/NahuelLedesma" target="_blank">Github <img src="assets/img/arrow.png"> </a></li>
+                    <li class="title__network__item"><a class="title__network__link" href="https://www.linkedin.com/in/nahuel-ledesma-14093b180/" target="_blank">Linkedin <img src="assets/img/arrow.png"></a></li>
+                    <li class="title__network__item"><a class="title__network__link" href="https://www.instagram.com/nahuuu_ledesma/" target="_blank">Instagram <img src="assets/img/arrow.png"></a></li>
+                    <li class="title__network__item"><a class="title__network__link" href="assets/CV.docx">Currículo <img src="assets/img/arrow.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph">Estudiante de la Licenciatura en Sistemas de Información y Desarrollo Web.</p>
+            <p class="about__paragraph">Soy una persona que se desempeña bien en trabajos en equipo. Me considero una persona constante a la hora de realizar una tarea.</p>
+            <p class="about__paragraph">Tengo como objetivo desarrollarme como profesional y poder trabajar y obtener experiencia en el área de tecnología de la información</p>
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/html.png" alt=""></li>
+                        </div> 
+                        <li class="skills__name">HTML 5</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/css.png" alt=""></li>
+                        </div> 
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/bootstrap_logo.png" alt=""></li>
+                        </div> 
+                        <li class="skills__name">Bootstrap</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/javascript.png" alt=""></li>
+                        </div>    
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/java.png" alt=""></li>
+                        </div>    
+                        <li class="skills__name">Java</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/cl.png" alt=""></li>
+                        </div>    
+                        <li class="skills__name">C</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/python.png" alt=""></li>
+                        </div> 
+                        <li class="skills__name">Python</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/c.png" alt=""></li>
+                        </div> 
+                        <li class="skills__name">C#</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__list">
+                        <div class="skills__img">
+                            <li><img class="img" src="assets/img/english.jpg" alt=""></li>
+                        </div> 
+                        <li class="skills__name">Inglés (intermedio)</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h3 class="hobbies__title">Hobbies</h3>
+        <div class="hobbies__line">
+            <div class="hobbies__box">
+                <ul class="hobbies__list">
+                    <li class="hobbies__name">Tocar guitarra</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul class="hobbies__list">
+                    <li class="hobbies__name">Oír música</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul class="hobbies__list">
+                    <li class="hobbies__name">Ver series</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul class="hobbies__list">
+                    <li class="hobbies__name">Cocinar</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul class="hobbies__list">
+                    <li class="hobbies__name">Leer</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h2 class="academic__title">Formación académica</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="img" src="assets/img/unlu.jpg"></li>
+                    <li class="academic__courses__item__title"><h4>Sistemas de Información</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2020 - En curso</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="img" src="assets/img/alura_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Desarrollo web Alura</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - En curso</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="img" src="assets/img/movistar.jpg"></li>
+                    <li class="academic__courses__item__title"><h4>Front-End - Movistar fundación telefónica</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2021 - Finalizado</p></li>
+                </ul>
+            </div>
+
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="img" src="assets/img/utn.jpg"></li>
+                    <li class="academic__courses__item__title"><h4>Bootstrap - UTN</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2021 - Finalizado</p></li>
+                </ul>
+            </div>
+
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="img" src="assets/img/cambridge.jpg"></li>
+                    <li class="academic__courses__item__title"><h4>Inglés - Cambridge</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2015 - 2020. Finalizado</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="xp">
+        <h2 class="experience__section__title" >Proyectos Realizados</h2>
+        <div class="experience__container">
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/img/secretcode_print.png">
+                <div class="experience__info-container">
+                    <h2 class="experience__title">Encriptador de texto</h2>
+                    <h3 class="experience__text">Challenge Oracle </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo"><a href="https://github.com/NahuelLedesma/Encriptador" target="_blank"><button class="experience__button--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href="https://nahuelledesma.github.io/Encriptador/" target="_blank"><button class="experience__button--demo">Ver demo</button></a></span>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="experience__box">
+                <img class="experience__img" src="assets/img/forca_print.png">
+                <div class="experience__info-container">
+                <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
+                    <h3 class="experience__text">Challenge Oracle </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo"><a href="https://github.com/NahuelLedesma/Ahorcado" target="_blank"><button class="experience__button--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href="https://nahuelledesma.github.io/Ahorcado/" target="_blank"><button class="experience__button--demo">Ver demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__box">
+                <img class="experience__img" src="assets/img/bootstrap.png">
+                <div class="experience__info-container">
+                <h2 class="experience__title">Página review creada con HTML, Bootstrap, Css y JavaScript</h2>
+                    <h3 class="experience__text">Página review</h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo"><a href="https://github.com/NahuelLedesma/Bootstrap" target="_blank"><button class="experience__button--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href="https://nahuelledesma.github.io/Bootstrap/" target="_blank"><button class="experience__button--demo">Ver demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Sección de Contacto -->
+    <section class="formcontact" id="contacto">
+        <div  class="formcontact__contacto">
+            <h2 class="formcontact__title">Contacto</h2>
+            <h3 class="formcontact__subtext">¿Quieres contactarme?</h3>
+            <h3 class="formcontact__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+            <form action="https://formsubmit.co/nahuledes17@gmail.com" method="POST" class="formcontact__form" name="form" id="formulario">    
+                <!-- Grupo: Nombre -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre : </label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" value="">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El nombre solo puede contener letras y hasta 40 carácteres</p>
+                </div>
+
+                <!-- Grupo: Correo Electronico -->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electrónico : </label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="correo" id="correo" value="">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+                </div>
+
+                <!-- Grupo: Asunto -->
+                <div class="formulario__grupo" id="grupo__asunto">
+                    <label for="asunto" class="formulario__label">Asunto : </label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="asunto" id="asunto" value="">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El nombre solo puede contener letras y números y hasta 50 carácteres</p>
+                </div>
+
+                <!-- Grupo: Mensaje -->
+                <div class="formulario__grupo" id="grupo__mensaje">
+                    <label for="mensaje" class="formulario__label">Mensaje :</label>
+                    <div class="formulario__grupo-input">
+                        <input class="formulario__input mensaje" name="mensaje" id="mensaje">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El mensaje solo puede contener hasta 300 carácteres</p>
+                </div>
+    
+                <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                </div>
+    
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="submit" class="formcontact__button">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Nahuel Joaquín Ledesma</p>
+            <p>2022</p>
+        </div>
+    </section>
+
+    <!-- Script del documento JavaScript -->
+    <script src="assets/javascript/validacion.js"></script>
+</body>
+</html>

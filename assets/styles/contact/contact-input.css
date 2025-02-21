@@ -1,0 +1,14 @@
+.formcontact__input{
+    border-radius: 10px;
+    height: 2.375rem;
+    margin-top: .5rem;
+    padding-left: .5rem;
+    width: 41rem;
+}
+
+
+@media screen and (max-width:480px) {
+    .formcontact__input{
+        width: 85%;
+    }
+}

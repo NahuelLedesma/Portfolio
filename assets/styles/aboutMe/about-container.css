@@ -1,0 +1,17 @@
+.about__container{
+    padding: 9.5rem;
+    margin-left: 5.5rem;
+}
+
+@media screen and (max-width:768px){
+    .about__container{
+        padding: 3rem 1rem 3rem 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about__container{
+        margin-left: 0;
+    }
+}

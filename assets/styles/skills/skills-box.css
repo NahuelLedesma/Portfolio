@@ -1,0 +1,27 @@
+.skills__box{
+    background: #FFF;
+    border-radius: 3rem;
+    box-shadow: 0 5px 5px 0;
+    height: 10.875rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    transition: .2s;
+    width: 11rem;
+    cursor: pointer;
+}
+
+.skills__box:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:768px){
+    .skills__box{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skills__box{
+        width: 50%;
+    }
+}

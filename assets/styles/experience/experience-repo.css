@@ -1,0 +1,39 @@
+.experience__repo{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 19px;
+    text-align: center;
+}
+
+.experience__button--repo{    
+    background: #F5F5F5;
+    color: #2A7AE4;
+    border-radius: 30px;
+    height: 3.5rem;
+    width: 10.5rem;
+    transition: .2s;
+}
+
+.experience__button--repo:hover{    
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .experience__repo{
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .experience__button--repo{
+        width: 6rem;
+        height: 2rem;
+    }
+
+    .experience__repo{
+        font-size: .7rem;
+    }
+}

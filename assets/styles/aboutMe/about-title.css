@@ -1,0 +1,12 @@
+.about__title{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 38px;
+}
+
+@media screen and(max-width:768px){
+    .about__title{
+        font-size: 1.375rem;
+        line-height: 26px;
+    }
+}

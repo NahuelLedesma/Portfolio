@@ -1,0 +1,19 @@
+.skills{
+    margin-top: 3rem;
+    padding-left: 15rem;
+    text-align: center;
+    width: 75%;
+}
+
+@media screen and (max-width:768px){
+    .skills{
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skills{
+        margin-top: 2rem;
+    }
+}

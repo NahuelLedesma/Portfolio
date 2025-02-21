@@ -1,0 +1,15 @@
+.menu__title{
+    margin-left: .7rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 480px){
+    .menu__title{
+        font-weight: 400;
+        margin-left: 0;
+    }
+
+    .header__img{
+        display: none;
+    }
+}

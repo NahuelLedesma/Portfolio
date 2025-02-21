@@ -1,0 +1,16 @@
+.experience__info-container{
+    padding-left: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .experience__info-container{
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .experience__info-container{
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+.experience__box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.experience__box:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5rem;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .experience__box{
+        flex-direction: column;
+        padding-top: 4rem;
+        align-items: flex-start;
+    }
+
+    .experience__box:nth-child(2){
+        flex-direction: column;
+        align-items: flex-start; 
+        padding-top: 4rem;
+    }
+}

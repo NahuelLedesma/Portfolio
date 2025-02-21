@@ -1,0 +1,12 @@
+.contact__label{
+    color: #333;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-left: .2rem;
+}
+
+@media screen and (max-width:480px) {
+    .contact__label{
+        padding-top: 1rem;
+    }
+}

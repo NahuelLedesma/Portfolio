@@ -1,0 +1,38 @@
+.experience__demo{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 19px;
+    text-align: center;
+}
+
+.experience__button--demo{    
+    background: #2A7AE4;
+    color: #FFF;
+    border-radius: 30px;
+    height: 3.5rem;
+    width: 10.5rem;
+    transition: .2s;
+}
+
+.experience__button--demo:hover{    
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .experience__demo{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .experience__button--demo{
+        width: 6rem;
+        height: 2rem;
+    }
+
+    .experience__demo{
+        font-size: .7rem;
+    }
+}

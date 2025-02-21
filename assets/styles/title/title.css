@@ -1,0 +1,22 @@
+.title__div{
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:768px) {
+    .title__div{
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .title__div{
+        flex-direction: column;  
+        margin-top: 1rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,14 @@
+.formcontact__textarea{
+    border-radius: 10px;
+    margin-top: .5rem;
+    padding-left: .5rem;
+    resize: none;
+    width: 41rem;
+    height: 8.313rem;
+}
+
+@media screen and (max-width:480px) {
+    .formcontact__textarea{
+        width: 85%;
+    }
+}

@@ -1,0 +1,14 @@
+.formcontact__form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+@media screen and (max-width:480px) {
+    .formcontact__form{
+        display: inline-flex;
+        text-align: center;
+    }
+}

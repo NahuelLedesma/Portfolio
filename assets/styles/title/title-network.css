@@ -1,0 +1,11 @@
+.title__network{
+    display: flex;
+    list-style: none;
+}
+
+@media screen and (max-width:480px) {
+    .title__network{
+        width: 23.5rem;
+        margin-left: auto;
+    }
+}

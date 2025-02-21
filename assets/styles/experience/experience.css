@@ -1,0 +1,26 @@
+.experience{
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 38px;
+    padding-left: 15rem;
+    width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .experience{
+        width: 100%;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 19px;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .experience{
+        padding-left: 0;  
+        text-align: center;  
+    }
+}

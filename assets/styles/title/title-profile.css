@@ -1,0 +1,25 @@
+.profile{
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.title__profile{
+    width: auto;
+    height: 100%;
+    margin-left: -70px;
+}
+
+@media screen and (max-width: 768px){
+    .profile{
+        width: 175px;
+        height: 175px;
+    }
+
+    .title__profile{
+        margin-left: -40px;
+    }
+}
